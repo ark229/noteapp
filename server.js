@@ -24,6 +24,9 @@ app.get('/', (req, res) => {
 const notesRouter = require('./routes/notes');
 app.use('/api/notes', notesRouter);
 
+const authRouter = require('./routes/auth');
+app.use('/api/auth', authRouter);
+
 //Start the server
 app.listen(PORT, () => {
     console.log(`The Server is running on port ${PORT}`);
