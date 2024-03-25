@@ -1,2 +1,2 @@
 # THE NOTE APP
-## A web application for notetakin and organization
+## A web application for notetaking and organization
